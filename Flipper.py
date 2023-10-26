@@ -7,14 +7,6 @@ def flip(num):
 	if num == 1:
 		return 0
 
-# Mathematical version of the input
-# Input sequence length
-#print("Statement 2 must make Statement 1 true")
-#print("Statement 1 : Sequence length >= 1")
-#length = int(input("Statement 2 : Sequence length = "))
-#print()
-
-# Simpleton version of the input
 # Input sequence length
 print("Input a number that is greater than or equal to 1")
 length = int(input("Sequence length = "))
