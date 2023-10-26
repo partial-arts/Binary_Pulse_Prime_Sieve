@@ -39,10 +39,10 @@ for i in range(length):
 			nums[j] = flip(nums[j])
 	print(terms)
 	print("=")
-	print(nums)
+	print(nums, end=" ")
 	if i == length-1:
-		print("Final =", nums)
-	print()
+		print("= Final")
+	print("\n")
 	# Copy nums to prevnums
 	for l in range(length):
 		prevnums[l] = nums[l]
